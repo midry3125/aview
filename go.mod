@@ -1,4 +1,4 @@
-module AnimeInfoViewer
+module aview
 
 go 1.19
 

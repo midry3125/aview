@@ -13,6 +13,6 @@ $ aview
 # How to build
 
 ```bash
-$ git clone https://github.com/midry3125/aview $ cd aview
+$ git clone https://github.com/midry3125/aview && cd aview
 $ go build
 ```

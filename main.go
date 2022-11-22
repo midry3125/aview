@@ -7,7 +7,7 @@ import (
     "time"
     "net/http"
     "encoding/json"
-    "AnimeInfoViewer/tui"
+    "aview/tui"
 )
 
 func GetSeason(month time.Month) int {
