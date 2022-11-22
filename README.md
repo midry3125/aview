@@ -1,10 +1,10 @@
 # AnimeInfoViewer
-TUI this season's anime information viewer
+TUI-based this season's anime information viewer.
 
 # How to install and use
 
 ```bash
-$ go get github.com/midry3125/AnimeInfoViewer
+$ go get github.com/midry3125/aview
 
 # You can run by this command
 $ aview
