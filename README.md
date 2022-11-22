@@ -10,6 +10,8 @@ $ go get github.com/midry3125/aview
 $ aview
 ```
 
+If you want to exit, please enter Ctrl+C
+
 # How to build
 
 ```bash
