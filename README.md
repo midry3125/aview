@@ -1,4 +1,4 @@
-# AnimeInfoViewer
+# aview
 TUI-based this season's anime information viewer.
 
 # How to install and use
