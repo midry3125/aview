@@ -16,8 +16,18 @@ If you want to exit, please enter Ctrl+C
 
 ```bash
 $ git clone https://github.com/midry3125/aview && cd aview
+
+# For Windows
+$ ./build.bat
+
+# For Linux
+$ ./bash.sh
+
+# Otherwise
 $ go build
 ```
+
+If you want to build for all of Windows, Linux and Mac, please use "-a" or "--all" option (only when you run script)
 
 # Using API
 [Project-ShangriLa/anime_api_golang](https://github.com/Project-ShangriLa/anime_api_golang)
