@@ -21,7 +21,7 @@ $ git clone https://github.com/midry3125/aview && cd aview
 $ ./build.bat
 
 # For Linux
-$ ./bash.sh
+$ ./build.sh
 
 # Otherwise
 $ go build
