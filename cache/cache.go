@@ -30,10 +30,11 @@ func SaveCache(contents []byte, date string) error {
 }
 
 func init() {
-    rootdir = filepath.Join(os.Getenv("APPDATA"), "aview")
-    if rootdir == "" {
-        rootdir = filepath.Join(os.Getenv("HOME"), "aview")
+    directory := os.Getenv("APPDATA")
+    if directory == "" {
+        directory = os.Getenv("HOME")
     }
+    rootdir = filepath.Join(directory, "aview")
     _, err := os.Stat(rootdir)
     if os.IsNotExist(err) {
         os.Mkdir(rootdir, 0666)
