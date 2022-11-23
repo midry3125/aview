@@ -4,7 +4,7 @@ TUI-based this season's anime information viewer.
 # How to install and use
 
 ```bash
-$ go install github.com/midry3125/aview
+$ go install github.com/midry3125/aview@latest
 
 # You can run by this command
 $ aview

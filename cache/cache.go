@@ -7,7 +7,7 @@ import (
     "io/ioutil"
     "encoding/json"
     "path/filepath"
-    "aview/tui"
+    "github.com/midry3125/aview/tui"
 )
 
 var rootdir string

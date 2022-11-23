@@ -7,8 +7,8 @@ import (
     "time"
     "net/http"
     "encoding/json"
-    "aview/cache"
-    "aview/tui"
+    "github.com/midry3125/aview/cache"
+    "github.com/midry3125/aview/tui"
 )
 
 func GetSeason(month time.Month) int {
