@@ -18,3 +18,6 @@ If you want to exit, please enter Ctrl+C
 $ git clone https://github.com/midry3125/aview && cd aview
 $ go build
 ```
+
+# Using API
+[Project-ShangriLa/anime_api_golang](https://github.com/Project-ShangriLa/anime_api_golang)
