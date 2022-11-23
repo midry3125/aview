@@ -3,6 +3,7 @@ package tui
 import (
     "fmt"
     "os"
+    "github.com/mattn/go-runewidth"
     "github.com/rivo/tview"
     "github.com/gdamore/tcell/v2"
 )
@@ -50,4 +51,8 @@ func createApplication(info []Information) *tview.Application {
     pages.AddPage("main", flex, true, true)
     app.SetRoot(pages, true)
     return app
+}
+
+func init() {
+    runewidth.DefaultCondition = &runewidth.Condition{EastAsianWidth: false}
 }
