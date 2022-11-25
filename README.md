@@ -10,7 +10,7 @@ $ go install github.com/midry3125/aview@latest
 $ aview
 ```
 
-You can also download an executable file from [releases](https://github.com/midry3125/releases/latest)  
+You can also download an executable file from [releases](https://github.com/midry3125/aview/releases/latest)  
 And then, you need to move it to a directory included in PATH.
 
 If you want to exit, please enter Ctrl+C
